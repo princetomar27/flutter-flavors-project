@@ -1,16 +1,13 @@
-# fluttflavtut
+## fluttflavtut
+Flavors helps us to create builds for different instances of our app. For example, we can create a flavor for development,
+a flavor for production and another flavor for a demo of the app. In this way we can create different flavors, and thus have 
+different instances of our apps before publishing it on the App Store and Google Play.
 
-A new Flutter project.
+# Running flavors
+flutter pub run flutter_flavorizr
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to run app with different flavors
+flutter run --flavor <flavorName> -t lib/main_<flavorName>.dart
+# For example : 
+flutter run --flavor dev -t lib/main_dev.dart
+flutter run --flavor prod -t lib/main_prod.dart
