@@ -10,41 +10,9 @@
             "type": "dart"
         },
         {
-            "name": "fluttflavtut (profile mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
-            "name": "fluttflavtut (release mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
-        },
-        {
             "name": "fluttflavtut Dev",
             "request": "launch",
             "type": "dart",
-            "args": [
-                "--flavor",
-                "dev"
-            ]
-        },
-        {
-            "name": "fluttflavtut Dev Profile",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile",
-            "args": [
-                "--flavor",
-                "dev"
-            ]
-        },
-        {
-            "name": "fluttflavtut Dev Release",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release",
             "args": [
                 "--flavor",
                 "dev"
